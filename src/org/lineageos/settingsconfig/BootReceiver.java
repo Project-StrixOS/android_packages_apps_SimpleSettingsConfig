@@ -23,7 +23,7 @@ import android.content.Intent;
 import android.provider.Settings;
 import android.util.Log;
 
-import lineageos.providers.LineageSettings;
+import strixos.providers.LineageSettings;
 
 import java.io.File;
 import java.io.IOException;

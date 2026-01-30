@@ -25,4 +25,8 @@ android_app {
     platform_apis: true,
     certificate: "platform",
     system_ext_specific: true,
+
+     aaptflags: [
+        "--rename-manifest-package", "com.android.settingsconfig",
+    ],
 }
